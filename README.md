@@ -9,6 +9,16 @@ Materials derived from other work adhere to the license of the original work (e.
 
 Copyright (c) 2022 Torbjørn V. Ness, Espen Hagen, Geir Halnes, Solveig Næss, Klas H. Pettersen, Gaute T. Einevoll.
 
+## Citation info
+
+If you use this material for your published works, please cite it as follows (replace version number and Zenodo-provided DOI accordingly):
+
+```
+Torbjørn V. Ness & Espen Hagen. (2023). LFPy/ElectricBrainSignals: ElectricBrainSignals-1.0.0rc2 (v1.0.0rc2). Zenodo. https://doi.org/10.5281/zenodo.8255422
+```
+
+The citation info for our book will be made available at a later point.
+
 ## Getting the data
 
 To use these codes, [clone](https://github.com/LFPy/ElectricBrainSignals) this repository by pressing that green button above and follow the instructions.

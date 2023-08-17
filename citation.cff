@@ -9,7 +9,7 @@ authors:
     orcid: "https://orcid.org/0000-0001-9080-8502"
 
 title: "ElectricBrainSignals"
-version: 1.0.0rc1
-doi: ""
+version: 1.0.0rc2
+doi: "https://doi.org/10.5281/zenodo.8255422"
 date-released: 
 url: "https://github.com/LFPy/ElectricBrainSignals"
