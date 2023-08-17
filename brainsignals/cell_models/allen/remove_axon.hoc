@@ -1,0 +1,23 @@
+
+axon {delete_section()}
+
+create axon[2]
+axon[0]{
+   L = 30
+   diam = 1
+   nseg = 1+2*int(L/40)
+   //all.append()
+   //axonal.append()
+}
+axon[1]{
+   L = 30
+   diam = 1
+   nseg = 1+2*int(L/40)
+   //all.append()
+   //axonal.append()
+}
+
+nSecAxonal = 2
+connect axon(0), soma(0.5)
+connect axon[1](0), axon[0](1)
+access soma

@@ -1,0 +1,12 @@
+{
+  "weight_EE": ParameterRange([0.00015]),
+  "weight_IE": ParameterRange([0.000125]),
+  "weight_EI": ParameterRange([0.0045]),
+  "weight_II": ParameterRange([0.002]),
+  "weight_scaling": ParameterRange([1.0]),
+  "biophys": ParameterRange(['lin', 'frozen']),
+  "i_syn": ParameterRange([True]),
+  "n_ext": ParameterRange([[465, 160]]),
+  "g_eff": ParameterRange([False, True]),
+  "perseg_Vrest": ParameterRange([False]),
+}

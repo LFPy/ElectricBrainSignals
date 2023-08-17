@@ -1,0 +1,12 @@
+matplotlib
+pandas
+seaborn
+jupyterlab
+lfpy>=2.3.0
+lfpykernels
+elephant
+neuron
+scikit-learn
+parameters
+git+https://bitbucket.org/cdelker/schemdraw.git@11f6777
+git+https://github.com/NeuralEnsemble/parameters@b95bac2bd17f03ce600541e435e270a1e1c5a478

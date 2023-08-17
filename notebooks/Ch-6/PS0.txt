@@ -1,0 +1,8 @@
+{
+  "weight_EE": ParameterRange([0.00015]),
+  "weight_IE": ParameterRange([0.000125]),
+  "weight_EI": ParameterRange([0.0045]),
+  "weight_II": ParameterRange([0.002]),
+  "weight_scaling": ParameterRange([0.975, 1.0, 1.025, 1.05, 1.075]),
+  "n_ext": ParameterRange([[465, 160]]),
+}
