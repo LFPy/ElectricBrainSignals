@@ -23,6 +23,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - removals goes here
 
+## [1.0.0rc3] - 2023-08-23
+
+### Added
+
+- Added Jypyter notebook [notebooks/Ch-6/calc_iaxial.ipynb](https://github.com/LFPy/ElectricBrainSignals/blob/main/notebooks/Ch-6/calc_iaxial.ipynb)
+
 ## [1.0.0rc2] - 2023-08-17
 
 ### Updated

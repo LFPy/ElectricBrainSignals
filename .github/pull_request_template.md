@@ -12,6 +12,7 @@ Changes proposed in this pull request:
 <!-- Please complete this checklist BEFORE submitting your PR to speed along the review process. -->
 - [ ] I've read and followed all steps in the [Making a pull request](https://github.com/LFPy/ElectricBrainSignals/blob/main/CONTRIBUTING.md#making-a-pull-request)
     section of the `CONTRIBUTING` docs.
+- [ ] I've bumped the version number in `brainsignals/version.py` file
 - [ ] I've updated or added any relevant docstrings following the syntax described in the
     [Writing docstrings](https://github.com/LFPy/ElectricBrainSignals/blob/main/CONTRIBUTING.md#writing-docstrings) section of the `CONTRIBUTING` docs.
 - [ ] If this PR fixes a bug, I've added a test that will fail without my fix.
