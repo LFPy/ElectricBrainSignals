@@ -1,6 +1,7 @@
 matplotlib
 pandas
 seaborn
+sympy
 jupyterlab
 lfpy>=2.3.0
 lfpykernels
