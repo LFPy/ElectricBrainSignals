@@ -23,6 +23,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - removals goes here
 
+## [1.0.0rc4] - 2023-08-29
+
+### Added
+
+- Added Jypyter notebook [notebooks/App-F/sinus_freq_content.ipynb](https://github.com/LFPy/ElectricBrainSignals/blob/main/notebooks/App-4/sinus_freq_content.ipynb)
+
 ## [1.0.0rc3] - 2023-08-23
 
 ### Added
