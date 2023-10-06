@@ -23,6 +23,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - removals goes here
 
+## [1.0.0rc5] - 2023-10-06
+
+### Updated
+
+- Updated notebook names to match those in the book.
+
 ## [1.0.0rc4] - 2023-08-29
 
 ### Added
