@@ -23,6 +23,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - removals goes here
 
+## [1.0.0rc6] - 2023-11-05
+
+### Updated
+
+- Updated codes for fig 6.1 and 7.8
+
 ## [1.0.0rc5] - 2023-10-06
 
 ### Updated
