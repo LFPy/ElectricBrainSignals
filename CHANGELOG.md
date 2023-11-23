@@ -27,7 +27,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Updated
 
-- Updated codes for fig 6.1 and 7.8
+- Updated codes for figures 6.1, 6.6 and 7.8
 
 ## [1.0.0rc5] - 2023-10-06
 
