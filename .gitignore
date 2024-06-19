@@ -133,3 +133,15 @@ arm64
 
 # MISC
 .DS_Store
+
+# jupyter downloads and notebooks
+brainsignals/cell_models/*.zip
+brainsignals/cell_models/_*
+brainsignals/cell_models/bbp_mod/*
+brainsignals/cell_models/bbp_models/*
+brainsignals/cell_models/HallermannEtAl2012
+brainsignals/cell_models/L5bPCmodelsEH
+notebooks/*/*.pdf
+notebooks/*/*.eps
+notebooks/*/*.svg
+

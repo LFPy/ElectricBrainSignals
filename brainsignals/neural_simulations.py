@@ -50,7 +50,7 @@ def download_hay_model():
     from warnings import warn
     import zipfile
     #get the model files:
-    u = urlopen('http://senselab.med.yale.edu/ModelDB/eavBinDown.asp?o=139653&a=23&mime=application/zip',
+    u = urlopen('https://modeldb.science/download/139653',
                 context=ssl._create_unverified_context())
     localFile = open(join(cell_models_folder, 'L5bPCmodelsEH.zip'), 'wb')
     localFile.write(u.read())
@@ -89,7 +89,7 @@ def download_hallermann_model():
     from warnings import warn
     import zipfile
     #get the model files:
-    u = urlopen('https://senselab.med.yale.edu/modeldb/eavBinDown?o=144526&a=23&mime=application/zip',
+    u = urlopen('https://modeldb.science/download/144526',
                 context=ssl._create_unverified_context())
     localFile = open(join(cell_models_folder, 'HallermannEtAl2012_r1.zip'), 'wb')
     localFile.write(u.read())
