@@ -141,7 +141,9 @@ brainsignals/cell_models/bbp_mod/*
 brainsignals/cell_models/bbp_models/*
 brainsignals/cell_models/HallermannEtAl2012
 brainsignals/cell_models/L5bPCmodelsEH
+brainsignals/cell_models/allen
 notebooks/*/*.pdf
 notebooks/*/*.eps
 notebooks/*/*.svg
-
+notebooks/*/*.npy
+notebooks/*/*.mat
