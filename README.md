@@ -2,7 +2,7 @@
 
 Notebooks and material for "Electric Brain Signals" written by
 Geir Halnes, Torbjørn V. Ness, Solveig Næss, Espen Hagen, Klas H. Pettersen and Gaute T. Einevoll,
-to be published by Cambridge University Press.
+now published by Cambridge University Press.
 
 These materials are made freely available under the [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) [LICENSE](https://github.com/LFPy/ElectricBrainSignals/blob/main/LICENSE), unless otherwise noted.
 Materials derived from other work adhere to the license of the original work (e.g., [GPL-3](https://www.gnu.org/licenses/gpl-3.0.txt)).
@@ -11,13 +11,40 @@ Copyright (c) 2022 Torbjørn V. Ness, Espen Hagen, Geir Halnes, Solveig Næss, K
 
 ## Citation info
 
-If you use this material for your published works, please cite it as follows (replace version number and Zenodo-provided DOI accordingly):
+If you use this material for your published works, please cite our book as follows
 
 ```
-Torbjørn V. Ness & Espen Hagen. (2023). LFPy/ElectricBrainSignals: ElectricBrainSignals-1.0.0rc2 (v1.0.0rc2). Zenodo. https://doi.org/10.5281/zenodo.8255422
+Halnes, G., Ness, T. V., Næss, S., Hagen, E., Pettersen, K. H., & Einevoll, G. T. (2024). Electric Brain Signals: Foundations and Applications of Biophysical Modeling. Cambridge: Cambridge University Press.
 ```
 
-The citation info for our book will be made available at a later point.
+as well as this code repository as (replace version number and Zenodo-provided DOI accordingly):
+
+```
+Torbjørn V. Ness & Espen Hagen. (2023). LFPy/ElectricBrainSignals: ElectricBrainSignals-1.0.0r5 (v1.0.0rc5). Zenodo. https://doi.org/10.5281/zenodo.8414232
+```
+
+Bibtex format:
+```
+@book{Halnes_Ness_Næss_Hagen_Pettersen_Einevoll_2024,
+  place={Cambridge},
+  title={Electric Brain Signals: Foundations and Applications of Biophysical Modeling},
+  publisher={Cambridge University Press}, author={Halnes, Geir and Ness, Torbjørn V. and Næss, Solveig and Hagen, Espen and Pettersen, Klas H. and Einevoll, Gaute T.},
+  year={2024}
+}
+
+@software{espen_hagen_2023_8414232,
+  author       = {Espen Hagen and
+                  Torbjørn Vefferstad Ness},
+  title        = {{LFPy/ElectricBrainSignals: 
+                   ElectricBrainSignals-v1.0.0rc5}},
+  month        = oct,
+  year         = 2023,
+  publisher    = {Zenodo},
+  version      = {v1.0.0rc5},
+  doi          = {10.5281/zenodo.8414232},
+  url          = {https://doi.org/10.5281/zenodo.8414232}
+}
+```
 
 ## Getting the data
 
