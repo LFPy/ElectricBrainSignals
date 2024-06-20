@@ -9,19 +9,35 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- additions goes here
+- additions go here
 
 ### Updated
 
-- updates goes here
+- updates go here
 
 ### Fixed
 
-- fixes goes here
+- fixes go here
 
 ### Removed
 
-- removals goes here
+- removals go here 
+
+## [1.0.0rc7] - 2023-06-20
+
+### Fixed
+
+- Fixed broken download URLs in the notebooks
+
+### Updated
+
+- Updated .gitignore to exclude notebook downloads and files
+
+## [1.0.0rc6] - 2023-11-05
+
+### Updated
+
+- Updated codes for figures 6.1, 6.6 and 7.8
 
 ## [1.0.0rc6] - 2023-11-05
 
