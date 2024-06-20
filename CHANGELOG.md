@@ -27,6 +27,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- Fixed issue with saving data in Figure-9.9.ipynb
 - Fixed broken download URLs in the notebooks
 - Removed unused imports in notebooks
 
