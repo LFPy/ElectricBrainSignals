@@ -417,13 +417,13 @@ def return_stick_cell(tstop, dt):
     }
     celldef()
 
-    Ra = 150.
-    cm = 1.
     Rm = 30000.
 
     forall {
         insert pas // 'pas' for passive, 'hh' for Hodgkin-Huxley
         g_pas = 1 / Rm
+        Ra = 150.
+        cm = 1.
         }
     """)
     cell_params = {
@@ -486,15 +486,17 @@ def return_ball_and_stick_cell(tstop, dt, apic_diam=2):
     }
     celldef()
 
-    Ra = 150.
-    cm = 1.
+
     Rm = 30000.
 
     forall {
         insert pas // 'pas' for passive, 'hh' for Hodgkin-Huxley
         g_pas = 1 / Rm
+        Ra = 150.
+        cm = 1.
         }
     """ % (apic_diam, apic_diam))
+
     cell_params = {
                 'morphology': h.all,
                 'delete_sections': False,
@@ -556,15 +558,13 @@ def return_two_comp_cell(tstop, dt):
     }
     celldef()
 
-    Ra = 150.
-    cm = 1.
     Rm = 30000.
 
     forall {
         insert pas // 'pas' for passive, 'hh' for Hodgkin-Huxley
         g_pas = 1 / Rm
-        Ra = Ra
-        cm = cm
+        Ra = 150.
+        cm = 1.
         }
     """)
     cell_params = {
