@@ -37,7 +37,7 @@ def mark_subplots(axes, letters='ABCDEFGHIJKLMNOPQRSTUVWXYZ', xpos=-0.12, ypos=1
         ax.text(xpos, ypos, letters[idx].capitalize(),
                 horizontalalignment='center',
                 verticalalignment='center',
-                fontweight='demibold',
+                fontweight='bold',
                 fontsize=10,
                 transform=ax.transAxes)
 

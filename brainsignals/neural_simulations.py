@@ -694,28 +694,32 @@ def point_axon_down(cell):
     '''
     Make the axon of Hay model point downwards, start at soma mid point,
     comp for soma diameter
-    
+
     Keyword arguments:
     :
         cell : LFPy.TemplateCell instance
-    
+
     '''
     iaxon = cell.get_idx(section='axon')
-    isoma = cell.get_idx(section='soma')
-    cell.x[iaxon, 0] = cell.x[isoma].mean(axis=1)
-    cell.x[iaxon, 1] = cell.x[isoma].mean(axis=1)
-    
-    cell.y[iaxon, 0] = cell.y[isoma].mean(axis=1)
-    cell.y[iaxon, 1] = cell.y[isoma].mean(axis=1)
-    
+    # If soma has multiple idxs, we pick the first
+    isoma = cell.get_idx(section='soma')[0]
+
+    soma_x = cell.x[isoma].mean()
+    soma_y = cell.y[isoma].mean()
+    soma_z = cell.z[isoma].mean()
+    soma_r = cell.d[isoma] / 2
+
+    cell.x[iaxon, 0] = soma_x
+    cell.x[iaxon, 1] = soma_x
+    cell.y[iaxon, 0] = soma_y
+    cell.y[iaxon, 1] = soma_y
+
     j = 0
     for i in iaxon:
-        cell.z[i, 0] = cell.z[isoma].mean(axis=1) \
-                - cell.d[isoma]/2 - cell.length[i] * j
-        cell.z[i, 1] = cell.z[isoma].mean(axis=1) \
-                - cell.d[isoma]/2 - cell.length[i] - cell.length[i]*j
+        cell.z[i, 0] = soma_z - soma_r - cell.length[i] * j
+        cell.z[i, 1] = soma_z - soma_r - cell.length[i] - cell.length[i] * j
         j += 1
-    
+
     ##point the pt3d axon as well
     for sec in cell.allseclist:
         if sec.name().rfind('axon') >= 0:
@@ -725,8 +729,8 @@ def point_axon_down(cell):
             L = sec.L
             for j in range(int(neuron.h.n3d(sec=sec))):
                 neuron.h.pt3dchange(j, x0, y0, z0,
-                                 sec.diam, sec=sec)
-                z0 -= L / (neuron.h.n3d(sec=sec)-1)
+                                    sec.diam, sec=sec)
+                z0 -= L / (neuron.h.n3d(sec=sec) - 1)
 
     # let NEURON know about the changes we just did:
     neuron.h.define_shape()
